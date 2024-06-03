@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="ChatViewCategory"
+            id="eclipse-toone-code">
+      </category>
+      <view
+            id="eclipsetoonecode.views.ChatView"
+            name="Chat View"
+            icon="icons/sample.png"
+            class="eclipsetoonecode.views.ChatView"
+            category="eclipse-toone-code"
+            inject="true">
+      </view>
+   </extension>
+
+</plugin>
